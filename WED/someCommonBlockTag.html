@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some Common Block Tag</title>
+</head>
+<body>
+    <h1>Some Common Block Tag</h1>
+    <h3>hr</h3>
+    <p>The hr element used to stand for "Horizontal line" and that is still it is will how it is typically displayed by browsers. However, is HTML5 the tag took on a semantic meaning."semantic break".I will be using it often to break up example when I want to dispay multiple tags in one file</p>
+    <hr>
+    <h3>address</h3>
+    <p>The address element indicates that the text is in an address specific to the page, perhaps contact information for the author</p>
+    <address>1715 Walnut Blvd</address>
+    <address>Ashtabula OH 44004</address>
+    <hr>
+    <h3>blockquote</h3>
+    <p>The blockquote element is used for extended quotations. It should include the cite attributed in order to show or link to the source of the quote</p>
+    <blockquote>If you cannot do great things, do small things in a great way</blockquote><p>Napaleon</p>
+    <hr>
+    <h3>details</h3>
+    <p>The detail element is used in conjunction with the summary tag. It is one of the tags that was created in respone to the repeated use of scripting to open and close content. It is not supported by all of the browsers yet through.</p>
+    <details><summary>The summary</summary>></details>
+    <hr>
+    <h3>Citing a source - cite</h3>
+    <p>The cite makes it much easier for people and bots to search the code for this specific information.</p>
+    <p>A great reference for these and other element is <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">https://developer.mozilla.org/en-US/docs/Web/HTML</a></cite></p>
+    <hr>
+    <h3>Defining your abbreviations - abbr</h3>
+    <p>The abbr will display an abbreviation on the browser. But if a title attribute is specified in the tag, the title will appear when the mouse hovers over the abbreviation. Screen readers alse provide the title information</p>
+    <abbr>The days of the week are often abbreviated: Sun,Mon,Tues,etc</abbr>
+    <hr>
+    <h3>Specifying the use of time - time</h3>
+    <p>The time is again a completely semantic tag that can be used to search for specific information.</p>
+    <p>The party starts at <time>9:00</time>pm</p>
+    <hr>
+    <h3>The code element tends to be displayed in a diffrent font but also has the semantic meaning to vonvey information to as many people as possible.</h3>
+    <p>I have been trying to learn how to write html but my <code>img</code> elements never seem to work</p>
+    <hr>
+    <h3>Using subscripts and superscripts - sub and sup</h3>
+    <p>The sub and sup elements are used to create the super, e.g (x+y)<sup>3</sup> or H<sub>2</sub>O. In the past, people would often paste mathematical images into the page. But images didn't convey the same meaning to all users</p>
+    <hr>
+    <h1>Special tags that need "more"</h1>
+    <h3>button</h3>
+    <p>Here is an example of the button tag. It is a little bit misleading  since it is a button that doesn't do anything. You would want to add some interactivity. perhaps with javaScript</p>
+    <button>Open</button>
+    <br>
+    <button>Close</button>
+    <hr>
+    <h3>meter</h3>
+    <p>The meter tag is cool and can take a lot of attributes. But again it is better if you have some code that can make the attribute values dynamic instead of "hardcoding" them. When you think meter, think of a final score for a test</p>
+    <meter value="2" min="0" max="10">2 out of 10</meter>
+    <br>
+    <meter value="0.6">60%</meter>
+    <hr>
+    <h3>progress</h3>
+    <p>The progress tag has a very similar to the meter tag. The difference is that there is an assumption that there will be progression to where the value will equal 100. This tag is often used when filling out a form that has many pages of questions.</p>
+    <progress value="75" max="100">
+    <hr>
+    <h3>iframe</h3>
+    <p>The frame is used to nest content. It is not supported equally well by all browsers. You will want to explore setting many of the different options such as height and width</p>
+    <iframe src="http://www.intro-webdesign.com"></iframe>
+    <p>You can set the width to something greater</p>
+    <iframe src="http://www.intro-webdesign.com" width="1200px" height="400px%"></iframe>
+</body>
+</html>
