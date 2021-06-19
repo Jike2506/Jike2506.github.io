@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Galary</title>
+	<style>
+		body{
+			margin: 2%;
+			border: 1px solid black;
+			background-color: #b3b3b3;
+		}
+		#image{
+			line-height: 650px;
+			width: 575px;
+			height: 650px;
+			border: 5px solid black;
+			text-align: center;
+			font-size: 150%;
+			background-color: #8e68ff;
+			background-image: url('');
+			background-repeat:no-repeat;
+			background-size: cover;
+			background-position: fixed center; 
+			color: white;
+			margin-left: 35%;
+		}
+		.preview{
+
+			width: 10%;
+			margin-top: 5%;
+			margin-left: 17%;
+			border: 10px solid black;
+		}
+		img{
+			width: 150px;
+			height: 150px;
+		}
+	</style>
+</head>
+<body>
+	<div id="image">Hover over an image below to display here
+	</div>
+	<img class="preview" alt="Hanamichi And Mito Yohei" src="https://i.pinimg.com/originals/ea/7f/7e/ea7f7e683478e80eeb4d995b821bf8d0.png" onmouseover="update(this)" onmouseout="unDo()"></img>
+	<img class="preview" alt="Hanamichi And Rukawa" src="https://i.pinimg.com/originals/af/b3/2b/afb32bb75db27dac08ca0992d204f527.jpg" onmouseover="update(this)" onmouseout="unDo()">
+	<img class="preview" alt="Hanamichi cute Moment" src="https://i.gifer.com/8CjR.gif" onmouseover="update(this)" onmouseout="unDo()"></img>
+	<script src="photoGallery.js"></script>
+</body>
+</html>
