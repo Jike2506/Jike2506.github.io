@@ -114,12 +114,13 @@
     .row nav ul {
         width: 100%;
         display: inline-block;
+        margin-left: -5%;
     }
     .row nav ul li{
         list-style: none;
         float: left;
         margin-left: 3%;
-        font-size: 120%;
+        font-size: 80%;
     }
     .row nav ul li:hover{
         color: red;
